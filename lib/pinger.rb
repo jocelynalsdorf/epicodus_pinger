@@ -3,6 +3,9 @@ class Fixnum
 		ngame = []
 		game = (1..self).to_a
 		game.each() do |item|
+			if item.%(15) == 0
+			ngame.push("pingpong")
+		else
 			ngame.push(item)
 		end
 		ngame
