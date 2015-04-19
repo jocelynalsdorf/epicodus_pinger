@@ -1,5 +1,5 @@
 class Fixnum
-	define_method(:some_method) do
-		#code here
+	define_method(:pinger) do
+		game = (1..self).to_a
   end
 end

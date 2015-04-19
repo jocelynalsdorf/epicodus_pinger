@@ -3,7 +3,7 @@ require('pinger.rb')
 require('pry')
 
 describe('Fixnum#pinger') do
-  it("what it should do") do
-    expect(("what is input").some_method()).to(eq(""))
+  it("pinger counts from 1 to a givennumber") do
+    expect((5).pinger()).to(eq([1,2,3,4,5]))
   end
 end
