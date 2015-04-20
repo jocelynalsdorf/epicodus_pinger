@@ -5,6 +5,10 @@ class Fixnum
 		game.each() do |item|
 			if item.%(15) == 0
 			ngame.push "pingpong"
+		elsif item.%(5) == 0
+			ngame.push "pong"
+		elsif item.%(3) == 0
+			ngame.push "ping"
 		else
 			ngame.push(item)
 		end
